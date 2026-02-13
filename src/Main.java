@@ -37,10 +37,10 @@ public class Main {
             service.mostrarAprobados();
             service.mostrarMejorAlumno();
 
-            System.out.println("Alumnos leidos del archivo:");
+            /*System.out.println("Alumnos leidos del archivo:");
             for (Alumno a : alumnos) {
                 System.out.println(a);
-            }
+            }*/
         }catch(Exception e){
             e.printStackTrace();
         }
